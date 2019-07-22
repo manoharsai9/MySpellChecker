@@ -10,7 +10,7 @@ Task: To create a spell checker recommendation so that when the user answer was 
 #####
 Actions: I worked independently to solve this task. I performed Kernighan’s approach to create a list of possible corrections. For each of the misspelled words, used Kernighan’s approach to find the probability of each possible correction. 
     - Extracted the corpus of 35 million words from the project gutenburg.
-    - Cleaned up the data by replacing every character that is not an Ascii letter by a space. Then convert to lowercase and split words by spaces.
+    - Cleaned up the data by replacing every character that is not an Ascii letter by a space. Then converted to lowercase and split words by spaces.
     - Built a dictionary of words, unigrams and bigrams along with their frequencies  
     - For each of the misspelled words, used Kernighan’s approach to find the probability of each possible correction.
 #####
